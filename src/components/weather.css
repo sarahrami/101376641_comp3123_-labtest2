@@ -1,0 +1,82 @@
+
+.weather td {
+    border: 1px solid #0000006c;
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+
+.weather th {
+    padding: 18px;
+    border: 1px solid #0000006c;
+    text-align: center;
+    background-color: rgb(101, 136, 189);
+    color: white;
+    font-size: 1.5rem;
+  }
+  .date{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(101, 136, 189);
+    color: white;
+  }
+
+  .weather {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  img{
+    width: 20%;
+  }
+
+.weather td span.weather-info {
+    display: flex;
+    align-items: center;
+}
+
+.weather td span.weather-info img {
+    margin-right: 5px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+  }
+
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  input{
+    width: 30%;
+    height: 17px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: white ;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  button{
+  
+    padding: 14px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color:cadetblue ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+table{
+    margin-top: 1rem;
+}
+
